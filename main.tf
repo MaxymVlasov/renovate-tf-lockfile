@@ -13,7 +13,7 @@ provider "utils" {}
 
 module "eks" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.4.3"
+  version = "2.0.0"
 
   component = "eks/eks"
 }
